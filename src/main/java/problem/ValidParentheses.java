@@ -1,13 +1,8 @@
-package com.hoopluz.WeiXinRedPackage1.LeetCode;
+package problem;
 
 import java.util.Stack;
 
-/**
- * Author : lihuiming
- * Description :
- * Date : 2020/3/7 0007
- * Time : 16:07
- */
+
 public class ValidParentheses {
     public boolean isValid(String s) {
         if (s.isEmpty()) {
@@ -16,7 +11,7 @@ public class ValidParentheses {
         if (s.length() % 2 != 0) {
             return false;
         }
-        Stack<Character> stack = new Stack<>();
+        Stack<Character> stack = new Stack();
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[')
                 stack.push(c);
@@ -43,7 +38,7 @@ public class ValidParentheses {
     }
 
     public boolean isValid2(String s) {
-        Stack<Character> g = new Stack<>();
+        Stack<Character> g = new Stack();
         char[] str = s.toCharArray();
         for (int i = 0; i < str.length; i++) {
             if (str[i] == '(' || str[i] == '{' || str[i] == '[') {

@@ -1,4 +1,4 @@
-package com.hoopluz.WeiXinRedPackage1.LeetCode;
+package problem;
 
 import java.util.Arrays;
 

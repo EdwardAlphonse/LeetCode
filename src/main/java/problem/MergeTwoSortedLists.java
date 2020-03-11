@@ -1,11 +1,6 @@
-package com.hoopluz.WeiXinRedPackage1.LeetCode;
+package problem;
 
-/**
- * Author : lihuiming
- * Description :
- * Date : 2020/3/10 0010
- * Time : 17:30
- */
+
 public class MergeTwoSortedLists {
     public class ListNode {
         int val;
